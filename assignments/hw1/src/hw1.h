@@ -1,7 +1,7 @@
 #include <vector>
 
 // Returns the euclidian lenght of 'vector'.
-double euclidean_lenght(std::vector<double> vector);
+double euclidean_length(std::vector<double> vector);
 
 // Returns a sorted vector that contains all the unique elements in 'sorted_vector'.
 //
