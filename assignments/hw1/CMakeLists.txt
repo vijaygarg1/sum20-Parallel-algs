@@ -3,7 +3,8 @@ project(hw1)
 
 set(CMAKE_CXX_STANDARD 14)
 
-find_package(OPENMP REQUIRED)
+# FIND OPENMP
+find_package(OpenMP REQUIRED)
 
 set(SOURCE_FILES src/hw1.cpp src/main.cpp)
 add_executable(hw1 ${SOURCE_FILES})
