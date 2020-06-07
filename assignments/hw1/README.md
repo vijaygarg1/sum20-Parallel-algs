@@ -14,16 +14,6 @@ These instructions are known to work on macOS Mojave. Your mileage may vary in o
 * OpenMP
 * CMake
 
-### On macOS use the system's clang instead of XCode's
-
-`export CC=/usr/local/opt/llvm/bin/clang`
-
-`export CXX=/usr/local/opt/llvm/bin/clang++`
-
-`export LDFLAGS="-L/usr/local/opt/llvm/lib"`
-
-`export CPPFLAGS="-I/usr/local/opt/llvm/include"`
-
 ### Hints on how to install OpenMP:
 
 *MacOs*: `brew install libomp`
@@ -33,6 +23,16 @@ These instructions are known to work on macOS Mojave. Your mileage may vary in o
 ### Hints on how to install CMake:
 
 Follow the instruction found here: https://cmake.org/install/
+
+### On macOS use the system's clang instead of XCode's
+
+`export CC=/usr/local/opt/llvm/bin/clang`
+
+`export CXX=/usr/local/opt/llvm/bin/clang++`
+
+`export LDFLAGS="-L/usr/local/opt/llvm/lib"`
+
+`export CPPFLAGS="-I/usr/local/opt/llvm/include"`
 
 ## Compiling the project
 
