@@ -5,7 +5,7 @@
 int main() {
   // Example execution for problem 5
   std::vector<double> vector = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
-  std::cout << "Euclidean distance: " << euclidean_length(vector) << std::endl; // This should print 55
+  std::cout << "Euclidean distance: " << euclidean_length(vector) << std::endl; // This should print 19.62...
 
   // Exacmple execution for problem 6
   std::vector<int64_t> sorted_with_dups = {1, 2, 2, 4, 5, 5, 6, 6};
