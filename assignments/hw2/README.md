@@ -1,4 +1,4 @@
-# HW1 - Shortest paths in Golang
+# HW2 - Shortest paths in Golang
 
 These instructions and code files are just meant to get you started. You can
 use these or roll your own. However the zip file must contain a `hw2.go` file
