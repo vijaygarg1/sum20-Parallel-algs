@@ -7,9 +7,9 @@ import (
 // Apply the bellman-ford algorihtm to Graph and return
 // a shortest path tree.
 //
-// Note that this uses path.Shortest from the gonum package
-// to make it easier for you, but you can use another struct
-// if that makes more sense for the concurrency model you chose.
+// Note that this uses Shortest to make it easier for you,
+// but you can use another struct if that makes more sense
+// for the concurrency model you chose.
 func BellmanFord(s graph.Node, g graph.Graph) Shortest {
 	// Your code goes here.
 	return newShortestFrom(s, g.Nodes())
@@ -18,9 +18,9 @@ func BellmanFord(s graph.Node, g graph.Graph) Shortest {
 // Apply the delta-stepping algorihtm to Graph and return
 // a shortest path tree.
 //
-// Note that this uses path.Shortest from the gonum package
-// to make it easier for you, but you can use another struct
-// if that makes more sense for the concurrency model you chose.
+// Note that this uses Shortest to make it easier for you,
+// but you can use another struct if that makes more sense
+// for the concurrency model you chose.
 func DeltaStep(s graph.Node, g graph.Graph) Shortest {
 	// Your code goes here.
 	return newShortestFrom(s, g.Nodes())
